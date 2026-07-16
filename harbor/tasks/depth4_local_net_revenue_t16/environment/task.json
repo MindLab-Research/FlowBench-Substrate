@@ -1,0 +1,13 @@
+{
+  "task_id": "depth4_local_net_revenue_t16",
+  "depth": 4,
+  "family": "local_net_revenue",
+  "params": {
+    "region": "NA",
+    "category": "A",
+    "month_start": 202604,
+    "month_end": 202606
+  },
+  "question": "For orders in region NA, category A, months 202604-202606: sum net USD revenue after loyalty discounts and refunds, then convert the total into the region's local currency. Report the integer local-currency amount.",
+  "answer_format": "exact integer"
+}

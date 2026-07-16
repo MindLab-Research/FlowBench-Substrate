@@ -1,0 +1,13 @@
+{
+  "task_id": "depth2_order_count_t3",
+  "depth": 2,
+  "family": "order_count",
+  "params": {
+    "region": "EU",
+    "category": "D",
+    "month_start": 202603,
+    "month_end": 202606
+  },
+  "question": "How many paid/refunded orders are in region EU, category D, from month 202603 through 202606? Report the count.",
+  "answer_format": "exact integer"
+}

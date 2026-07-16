@@ -1,0 +1,13 @@
+{
+  "task_id": "depth2_unique_customer_count_t9",
+  "depth": 2,
+  "family": "unique_customer_count",
+  "params": {
+    "region": "EU",
+    "category": "A",
+    "month_start": 202602,
+    "month_end": 202605
+  },
+  "question": "How many unique customers placed paid/refunded orders in region EU, category A, from month 202602 through 202605? Report the count.",
+  "answer_format": "exact integer"
+}

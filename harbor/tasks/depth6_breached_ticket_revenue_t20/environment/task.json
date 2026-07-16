@@ -1,0 +1,13 @@
+{
+  "task_id": "depth6_breached_ticket_revenue_t20",
+  "depth": 6,
+  "family": "breached_ticket_revenue",
+  "params": {
+    "region": "NA",
+    "category": "C",
+    "month_start": 202602,
+    "month_end": 202604
+  },
+  "question": "For region NA, category C, months 202602-202604: get the paid/refunded orders, find high and critical tickets for those orders, keep tickets that breach a 24-hour first-response or 120-hour resolution SLA, map those breached tickets back to their unique order ids, compute net USD revenue after discounts and refunds for those orders, and report the total at-risk revenue.",
+  "answer_format": "exact integer"
+}

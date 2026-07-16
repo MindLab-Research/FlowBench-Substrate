@@ -1,0 +1,13 @@
+{
+  "task_id": "depth2_unique_customer_count_t23",
+  "depth": 2,
+  "family": "unique_customer_count",
+  "params": {
+    "region": "LATAM",
+    "category": "C",
+    "month_start": 202601,
+    "month_end": 202602
+  },
+  "question": "How many unique customers placed paid/refunded orders in region LATAM, category C, from month 202601 through 202602? Report the count.",
+  "answer_format": "exact integer"
+}

@@ -1,0 +1,13 @@
+{
+  "task_id": "depth6_delay_sla_burden_t17",
+  "depth": 6,
+  "family": "delay_sla_burden",
+  "params": {
+    "region": "EU",
+    "category": "D",
+    "month_start": 202601,
+    "month_end": 202602
+  },
+  "question": "For region EU, category D, months 202601-202602: get the orders, count delayed orders where ship_days exceeded promised_days, find high and critical support tickets for those orders, count tickets that breach a 24-hour first-response or 120-hour resolution SLA, and report delayed_order_count + breached_ticket_count.",
+  "answer_format": "exact integer"
+}

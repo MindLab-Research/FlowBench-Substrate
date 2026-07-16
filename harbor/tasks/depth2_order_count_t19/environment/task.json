@@ -1,0 +1,13 @@
+{
+  "task_id": "depth2_order_count_t19",
+  "depth": 2,
+  "family": "order_count",
+  "params": {
+    "region": "LATAM",
+    "category": "B",
+    "month_start": 202605,
+    "month_end": 202606
+  },
+  "question": "How many paid/refunded orders are in region LATAM, category B, from month 202605 through 202606? Report the count.",
+  "answer_format": "exact integer"
+}

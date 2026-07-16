@@ -1,0 +1,13 @@
+{
+  "task_id": "depth2_unique_customer_count_t22",
+  "depth": 2,
+  "family": "unique_customer_count",
+  "params": {
+    "region": "APAC",
+    "category": "D",
+    "month_start": 202603,
+    "month_end": 202605
+  },
+  "question": "How many unique customers placed paid/refunded orders in region APAC, category D, from month 202603 through 202605? Report the count.",
+  "answer_format": "exact integer"
+}

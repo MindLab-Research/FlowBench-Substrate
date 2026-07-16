@@ -1,0 +1,13 @@
+{
+  "task_id": "depth5_reorder_shortfall_t20",
+  "depth": 5,
+  "family": "reorder_shortfall",
+  "params": {
+    "region": "NA",
+    "category": "C",
+    "month_start": 202602,
+    "month_end": 202604
+  },
+  "question": "Find the top-selling product id for region NA, category C, months 202602-202604. For that product, compute inventory position (on_hand - reserved + inbound), estimate daily demand as floor(units sold in the window / 4) with a minimum of 1, compute planning demand as (lead_time_days + 21 safety-stock days) * daily demand, and report the reorder shortfall max(0, planning demand - inventory position).",
+  "answer_format": "exact integer"
+}

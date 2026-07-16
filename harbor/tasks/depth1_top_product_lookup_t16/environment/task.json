@@ -1,0 +1,13 @@
+{
+  "task_id": "depth1_top_product_lookup_t16",
+  "depth": 1,
+  "family": "top_product_lookup",
+  "params": {
+    "region": "NA",
+    "category": "A",
+    "month_start": 202604,
+    "month_end": 202606
+  },
+  "question": "For region NA, category A, months 202604-202606, identify the product id with the highest units sold. Report only the product id; report -1 if no product has paid/refunded orders.",
+  "answer_format": "exact integer"
+}

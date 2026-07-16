@@ -1,0 +1,1210 @@
+# Public task-only manifest for mindlab/flowbench-public
+# Smoke verifier only; official scoring uses the private evaluator pack.
+
+[dataset]
+name = "mindlab/flowbench-public"
+description = "Answer-free public FlowBench task pack with smoke verifier."
+keywords = ["flowbench", "tool-use", "data-orchestration", "operations"]
+[[dataset.authors]]
+name = "Mind Lab"
+email = "contact@mindlab.ltd"
+
+[[tasks]]
+name = "mindlab/depth1_currency_lookup_t0"
+digest = "sha256:3b242b7116a0d1b3d67860f9c58ef60e1997bdb2fe50e03fa2ae96c261211834"
+
+[[tasks]]
+name = "mindlab/depth1_currency_lookup_t1"
+digest = "sha256:eed4c8bb0a9f8c9b502576924ce2a64eec5a8d40a2b0bdfec1ec01933fe71fe7"
+
+[[tasks]]
+name = "mindlab/depth1_currency_lookup_t2"
+digest = "sha256:cdd7a853682bf58b91b37a065ca6acf152e860fe494263eefd2a425834c4d2ea"
+
+[[tasks]]
+name = "mindlab/depth1_currency_lookup_t3"
+digest = "sha256:a81258c44183496a880b4c743afac6613b62d9eb63eb41fa5b1153f39a62e71d"
+
+[[tasks]]
+name = "mindlab/depth1_currency_lookup_t4"
+digest = "sha256:d3b931bf5f292318da51b2245c1513841fb0cce92e93da7477f80e17239ebe63"
+
+[[tasks]]
+name = "mindlab/depth1_currency_lookup_t5"
+digest = "sha256:8e27e3919180fac88be94bb4b06df57390af77dcf15dc1f9a66eff30d9cdac5b"
+
+[[tasks]]
+name = "mindlab/depth1_currency_lookup_t6"
+digest = "sha256:7706ad483a17726971efb6885ef37cb89a64b22d0cafb2e401a377f6baef6e68"
+
+[[tasks]]
+name = "mindlab/depth1_currency_lookup_t7"
+digest = "sha256:7ceb31fe44854f8450e4fcb87e975cd42f108aefeb9e737289de5c24aa9b299e"
+
+[[tasks]]
+name = "mindlab/depth1_currency_lookup_t8"
+digest = "sha256:3b6c9585e2062e21087015ef3a88e8b29b495d62da726f9f85e90695bc5dbcf2"
+
+[[tasks]]
+name = "mindlab/depth1_currency_lookup_t9"
+digest = "sha256:67bfcb618451b8bbfef76d2abf08e0592e694c5679174a5939fb5bd479099955"
+
+[[tasks]]
+name = "mindlab/depth1_currency_lookup_t10"
+digest = "sha256:4ac6bf969364ffa57159408fb36a3d860de81c091668a520f3cb0b93d98844a5"
+
+[[tasks]]
+name = "mindlab/depth1_currency_lookup_t11"
+digest = "sha256:73695eb16ceb8b2648e495587da7d55a58c4f5177e2c09dbd9ef3653a8773c55"
+
+[[tasks]]
+name = "mindlab/depth1_currency_lookup_t12"
+digest = "sha256:1adbae86a1da42d63e581ecd8d6a3fb92ff3188e22d4acfea446d72211fe1c21"
+
+[[tasks]]
+name = "mindlab/depth1_currency_lookup_t13"
+digest = "sha256:cdf836d66d1d68900928c3a72cb3c02044338d68ce5195d1f02ba307b0dc28f9"
+
+[[tasks]]
+name = "mindlab/depth1_currency_lookup_t14"
+digest = "sha256:211fe0f1cad77370bcf8358492662a3b62a0b8d40c1d58f9aebd80ff1fb7b2f1"
+
+[[tasks]]
+name = "mindlab/depth1_currency_lookup_t15"
+digest = "sha256:a80fedd082037eb1117ebc85ed051f2837ad6acf3350c5dc08bc5cfbc9bde9cb"
+
+[[tasks]]
+name = "mindlab/depth1_currency_lookup_t16"
+digest = "sha256:344f1cafce4e9809872adaf5d2ac536f713f3fdedafd0bca5256f64fc1532c91"
+
+[[tasks]]
+name = "mindlab/depth1_currency_lookup_t17"
+digest = "sha256:4d86f85df16d74b0e5699bb69779d48985141e439dc058a7baba3f5811c7b961"
+
+[[tasks]]
+name = "mindlab/depth1_currency_lookup_t18"
+digest = "sha256:a1181421fb64132baeb7c3c04427aa23051660e8ec19613ff5f4060f83e7af15"
+
+[[tasks]]
+name = "mindlab/depth1_currency_lookup_t19"
+digest = "sha256:274ca495a513205f92e023158edcb8edeb0fc0cc6205b5798bbb92de6e0543e8"
+
+[[tasks]]
+name = "mindlab/depth1_currency_lookup_t20"
+digest = "sha256:ae3bec8afb836f5bf0a2c56b2a288972b147b9f7682824e93ba67629c9992b7a"
+
+[[tasks]]
+name = "mindlab/depth1_currency_lookup_t21"
+digest = "sha256:c7b186bd4f81e863127191b6e1e30a6ae990324753dbf4f2bb35f43be5ce0529"
+
+[[tasks]]
+name = "mindlab/depth1_currency_lookup_t22"
+digest = "sha256:c8dd74dcd159abb67464c3841a5bf7858f3c776577d09e1fedb5157e5126c6e3"
+
+[[tasks]]
+name = "mindlab/depth1_currency_lookup_t23"
+digest = "sha256:11d990186c94fdbb4507b75035f82d400a35de88306aa52f6c2df5c6c5cb8083"
+
+[[tasks]]
+name = "mindlab/depth1_currency_lookup_t24"
+digest = "sha256:fd45d518b80f94244f5aaefb661201e7604f46d00742e5cf09a7829df054493e"
+
+[[tasks]]
+name = "mindlab/depth1_top_product_lookup_t0"
+digest = "sha256:f212eeb3a17027b102939d47add8565cd786ed9983b70cdb6a8917497a36f567"
+
+[[tasks]]
+name = "mindlab/depth1_top_product_lookup_t1"
+digest = "sha256:817113fa1ba2bbea4b9ad99927995357f8776e4bff8bcb8a8ff5340613c488c3"
+
+[[tasks]]
+name = "mindlab/depth1_top_product_lookup_t2"
+digest = "sha256:b5eaabc6b16341b263e428ca8b0acdb6b1a53845808f97bdfa1ad8c0a495dbf8"
+
+[[tasks]]
+name = "mindlab/depth1_top_product_lookup_t3"
+digest = "sha256:b402db903ef8f1cd88f21dfa98482b780a72e2a8ab4e5010888acb06a108cd84"
+
+[[tasks]]
+name = "mindlab/depth1_top_product_lookup_t4"
+digest = "sha256:417d45d64c310f8d0f82bef22b8a052726d54ecca4085bce76127114ebb2a0cd"
+
+[[tasks]]
+name = "mindlab/depth1_top_product_lookup_t5"
+digest = "sha256:7b12058053bff11efe634cf490d129462dd198565200afc230fee5b19e507f1a"
+
+[[tasks]]
+name = "mindlab/depth1_top_product_lookup_t6"
+digest = "sha256:1a4b16aa2a666cbf75379564cffb3d635e6251597ba480b450817d2542a8d9b3"
+
+[[tasks]]
+name = "mindlab/depth1_top_product_lookup_t7"
+digest = "sha256:155009b02d12278863df10c72d58656e1dacc4ff9e04d0e14b2ac52764d4e602"
+
+[[tasks]]
+name = "mindlab/depth1_top_product_lookup_t8"
+digest = "sha256:bd6f96b919f8e046b5d06096528272d140c396a677c05d36baad0818511f15cf"
+
+[[tasks]]
+name = "mindlab/depth1_top_product_lookup_t9"
+digest = "sha256:96f2acf2dd5f872f71a0f43de1300bb766beeee679a51bd342d220bb15b1d8e1"
+
+[[tasks]]
+name = "mindlab/depth1_top_product_lookup_t10"
+digest = "sha256:c9805e7412f6b003353dbf99963587eb65fc21499d0bf0b99ea12a3b7188b303"
+
+[[tasks]]
+name = "mindlab/depth1_top_product_lookup_t11"
+digest = "sha256:2c10c61c4395db833331307b86e251f2b1ad10436eef3c1f9506945160311710"
+
+[[tasks]]
+name = "mindlab/depth1_top_product_lookup_t12"
+digest = "sha256:deafc107d9bfc326eff3d60db284b1903ec35c143d36d40afb01d4b550a97da6"
+
+[[tasks]]
+name = "mindlab/depth1_top_product_lookup_t13"
+digest = "sha256:18d26900dc96914c923db2fa2c0daf901f20f27e91438610a2a19c72d6ae915a"
+
+[[tasks]]
+name = "mindlab/depth1_top_product_lookup_t14"
+digest = "sha256:b533c03985ec036349ef974876222c6cb69987219ad19333c2431201d09fc49f"
+
+[[tasks]]
+name = "mindlab/depth1_top_product_lookup_t15"
+digest = "sha256:549cb08fe804f329c20d7411f59caa6076243d6bda9f667aa3716e740b977c80"
+
+[[tasks]]
+name = "mindlab/depth1_top_product_lookup_t16"
+digest = "sha256:cf54cf24311c0e38cd2ad4b32e0de6592bd206b908759874a12e35d9f87830fe"
+
+[[tasks]]
+name = "mindlab/depth1_top_product_lookup_t17"
+digest = "sha256:ebc0d307127116763e390173855935221112d44e7d81c4811b2c9e1521b8a74b"
+
+[[tasks]]
+name = "mindlab/depth1_top_product_lookup_t18"
+digest = "sha256:0c56b55b965fb895b7a0cdfffde60d902999b9428670cbea594eb826d69dc4c4"
+
+[[tasks]]
+name = "mindlab/depth1_top_product_lookup_t19"
+digest = "sha256:4a50e018be4905273759d707fb92b4802529884ad245f770c8d94295a382f698"
+
+[[tasks]]
+name = "mindlab/depth1_top_product_lookup_t20"
+digest = "sha256:4dd2c3dd89b266c4b1baa40b489ec71ae71ab60d471fb54e0044604bb09f4652"
+
+[[tasks]]
+name = "mindlab/depth1_top_product_lookup_t21"
+digest = "sha256:ca8abfa15925cb75f76180471b31b09f81bb516fb8f36d7eefbd186ad8d9d40e"
+
+[[tasks]]
+name = "mindlab/depth1_top_product_lookup_t22"
+digest = "sha256:8adc46de99b7d1afa5bdfcba70097c01e6cd3e332ffce77d7926692ae7e41568"
+
+[[tasks]]
+name = "mindlab/depth1_top_product_lookup_t23"
+digest = "sha256:c1d5ba47997abf3385d67e358923376f63f4bcee20742cfa9c3d1f4f4b384394"
+
+[[tasks]]
+name = "mindlab/depth1_top_product_lookup_t24"
+digest = "sha256:0ea85976c57d7dfac57149724c6f61bce4f231a7571e3ec17b1caef5476907ab"
+
+[[tasks]]
+name = "mindlab/depth2_order_count_t0"
+digest = "sha256:58ede2b74fc246b39ee6019478a71c284aa4b61db84a0a60f61b2557da39fcef"
+
+[[tasks]]
+name = "mindlab/depth2_order_count_t1"
+digest = "sha256:90e055219e25ea60399d8a07cea4b5c356e0e0f67a8686366aa3ea0f10a58ea1"
+
+[[tasks]]
+name = "mindlab/depth2_order_count_t2"
+digest = "sha256:b57bed5a8efc805aa837d50e18a26fe457092826afa26b53abb427090bdbbead"
+
+[[tasks]]
+name = "mindlab/depth2_order_count_t3"
+digest = "sha256:c2585e14bd40bfd19385e1b7b20b96c0c408ac9c600665dd9fdd757773ab66aa"
+
+[[tasks]]
+name = "mindlab/depth2_order_count_t4"
+digest = "sha256:781510da2286ce8956b6713b8634ed7a2a272d6e79bfc9e4c64f95d126345a6d"
+
+[[tasks]]
+name = "mindlab/depth2_order_count_t5"
+digest = "sha256:7be8475406e1f6314f887543b21f2247f9e51ca1d722e3c124fa77ae8ede64d4"
+
+[[tasks]]
+name = "mindlab/depth2_order_count_t6"
+digest = "sha256:4fb65ed111ac6a610148651cfb5493d798d20b905e8787f08d7a862a6e245dbe"
+
+[[tasks]]
+name = "mindlab/depth2_order_count_t7"
+digest = "sha256:d56c4b4b6c8c0a9c571d34bc2325780f93bebdcfc00a33759e19165de46c6be7"
+
+[[tasks]]
+name = "mindlab/depth2_order_count_t8"
+digest = "sha256:d4c4491ff01fc4cfc1007923fb75dfc15b2b2fe7ef8b36b90678f521bafaf0a4"
+
+[[tasks]]
+name = "mindlab/depth2_order_count_t9"
+digest = "sha256:655d3d64b329aea8bdf1ba999ecf9bfcca629942afedd823cfe04a08b4a1ea7e"
+
+[[tasks]]
+name = "mindlab/depth2_order_count_t10"
+digest = "sha256:3e51fbc7a3334b5e48c3bbf7ed64b599697569665d9588ebd6bf773a5fe554f2"
+
+[[tasks]]
+name = "mindlab/depth2_order_count_t11"
+digest = "sha256:9462d0d177e4cf7dc9cbbf0864191db954e253ddb54e5b5147e8edc279740406"
+
+[[tasks]]
+name = "mindlab/depth2_order_count_t12"
+digest = "sha256:09aa2b9bfca49d960ccd3de153d1e5ce023bf41093e467667b7fd2af9a03c507"
+
+[[tasks]]
+name = "mindlab/depth2_order_count_t13"
+digest = "sha256:df0c13adfe4d9a3a2c9413687df7558d849eeefd59fe2fed2c4af4206c87f890"
+
+[[tasks]]
+name = "mindlab/depth2_order_count_t14"
+digest = "sha256:79d98a83626e19a312e5cbd555b8de6b5ef0f941be84c3082db0b0a60c6d90ea"
+
+[[tasks]]
+name = "mindlab/depth2_order_count_t15"
+digest = "sha256:9be05b67bcf0ea161ff8b2795b587b4c448d0f33e53463f98554d15dc682bde1"
+
+[[tasks]]
+name = "mindlab/depth2_order_count_t16"
+digest = "sha256:0fdc739c185678cd775d5fa2f72a55603b5e58641bf8bd5ff82e986f7757b871"
+
+[[tasks]]
+name = "mindlab/depth2_order_count_t17"
+digest = "sha256:a98ba0561f4112f7e0f3f624215045385e8fa1456c4c0fd07a6582a127b16934"
+
+[[tasks]]
+name = "mindlab/depth2_order_count_t18"
+digest = "sha256:9bb16d5fa00ad80ab5d71ed421cfb1aff79c0f3abf0da23201154d32a77e0378"
+
+[[tasks]]
+name = "mindlab/depth2_order_count_t19"
+digest = "sha256:bc45b27d0771cc405553cc72d4766a8613614e93362e32f7031c59bf66766858"
+
+[[tasks]]
+name = "mindlab/depth2_order_count_t20"
+digest = "sha256:2daa7e32717059921c54e73729bd65ce04dda974d9fba9259521b33fab30dd89"
+
+[[tasks]]
+name = "mindlab/depth2_order_count_t21"
+digest = "sha256:68e6628935c306c0386b06199730f19e742489ee26cfd7f1679c43e1c6ec45fd"
+
+[[tasks]]
+name = "mindlab/depth2_order_count_t22"
+digest = "sha256:34496ed9dad52b65d5a12d28d69f04606618f313bf1e7a69af951f76308a266a"
+
+[[tasks]]
+name = "mindlab/depth2_order_count_t23"
+digest = "sha256:0bc76a7586828a7005c7fad2e00a9b7b35128efb092c35fa063618871a505d52"
+
+[[tasks]]
+name = "mindlab/depth2_order_count_t24"
+digest = "sha256:2087573b4c7d0a4e7496fb2c5d9f818863df10dd97d9fda2f7ca5a0700e91749"
+
+[[tasks]]
+name = "mindlab/depth2_unique_customer_count_t0"
+digest = "sha256:bac5601e3ef3e90905a9a05763fa7a29e92776cf433a0f0f28bc6b257a8dcddc"
+
+[[tasks]]
+name = "mindlab/depth2_unique_customer_count_t1"
+digest = "sha256:36bb125577452bf6d50fc34db5a52e834ec1e131f429d44a4a4992fad84a5d82"
+
+[[tasks]]
+name = "mindlab/depth2_unique_customer_count_t2"
+digest = "sha256:b3d43caaeef71ec9e19030738c3b6ed616aed11bee4088760ca5982fac51295d"
+
+[[tasks]]
+name = "mindlab/depth2_unique_customer_count_t3"
+digest = "sha256:1a4e867d117902d8f39d0fb1796a0084f7d182403cb7feb75cbf193f57e02056"
+
+[[tasks]]
+name = "mindlab/depth2_unique_customer_count_t4"
+digest = "sha256:04d29c9214caf151b93df241427cbee82f5c20301c74c1015d1c88c8f1db678e"
+
+[[tasks]]
+name = "mindlab/depth2_unique_customer_count_t5"
+digest = "sha256:50bf62406f6a4889c8a4ede3fcaecb23deda8daa6f4211dedf23dea678c8892e"
+
+[[tasks]]
+name = "mindlab/depth2_unique_customer_count_t6"
+digest = "sha256:cd0ca0bb81614acc5578ba2ffee460796bb9a638fc87cb1414fefc99cc4ee864"
+
+[[tasks]]
+name = "mindlab/depth2_unique_customer_count_t7"
+digest = "sha256:c694d25fabc69891f267103af8ded216cabde0d42ccb231c0bb173490282a91d"
+
+[[tasks]]
+name = "mindlab/depth2_unique_customer_count_t8"
+digest = "sha256:9a41920254c9422c1d1fabac5a81f0c7d26f6100d11f91b7b7013d8820c576ce"
+
+[[tasks]]
+name = "mindlab/depth2_unique_customer_count_t9"
+digest = "sha256:fe6fa23c8bae9a1894d766a29335907a084abe93c580622534f6ed0d371b588b"
+
+[[tasks]]
+name = "mindlab/depth2_unique_customer_count_t10"
+digest = "sha256:257d022a36dfb3a0957a61f20cd1d5d22280888aad3310b2b4771e06bd3b9ccd"
+
+[[tasks]]
+name = "mindlab/depth2_unique_customer_count_t11"
+digest = "sha256:ba959b8c7f970addde150002efd5bb1ea74deb9a0d218a76625609377710286a"
+
+[[tasks]]
+name = "mindlab/depth2_unique_customer_count_t12"
+digest = "sha256:98618fd9490d803f689b7b7a698b878fbc167bd8068b60985fb6521812f86f3a"
+
+[[tasks]]
+name = "mindlab/depth2_unique_customer_count_t13"
+digest = "sha256:2bb7507868b3213077fbaf817bbfbdb628c9cebb1917370d16a138a06bbb3c52"
+
+[[tasks]]
+name = "mindlab/depth2_unique_customer_count_t14"
+digest = "sha256:98ff33e1e258aed9feb7cffe2ac2c8e075c530f244fbaa81fd139068c1d9f892"
+
+[[tasks]]
+name = "mindlab/depth2_unique_customer_count_t15"
+digest = "sha256:f2b94bf2cd82bef0b626f17dc799b2d2418e080e97085a0e428720ffa80ba845"
+
+[[tasks]]
+name = "mindlab/depth2_unique_customer_count_t16"
+digest = "sha256:d3824ca48bd0116ac534ab4e8f19bd3cdb45b6665fdcd5b11c5bf7b7ed5d748d"
+
+[[tasks]]
+name = "mindlab/depth2_unique_customer_count_t17"
+digest = "sha256:a0af02646f47e38a53a6bfcbbea292f8f24e75f27d2e83e331c8dc510f500425"
+
+[[tasks]]
+name = "mindlab/depth2_unique_customer_count_t18"
+digest = "sha256:3b9d16a7c989be8d2009e98cc6cdaae8517d64d991f25b0bfce20e7fc5670ef7"
+
+[[tasks]]
+name = "mindlab/depth2_unique_customer_count_t19"
+digest = "sha256:6373ef12f5b9def45da6f8c556e17987a267f3bbd183ea0b87ae20cd0a0fd3f1"
+
+[[tasks]]
+name = "mindlab/depth2_unique_customer_count_t20"
+digest = "sha256:5239952d62357a506eb98c5d7510676d0998b69515d255511c009f6643a48362"
+
+[[tasks]]
+name = "mindlab/depth2_unique_customer_count_t21"
+digest = "sha256:d8f64b3610a5f6136d5524497a6d2f540b49b884ccccc450cf59bd3e970de48d"
+
+[[tasks]]
+name = "mindlab/depth2_unique_customer_count_t22"
+digest = "sha256:5a1d58fb30fc3962bd126a4367dff4af2c9459520e77a78a2f15baf671e51545"
+
+[[tasks]]
+name = "mindlab/depth2_unique_customer_count_t23"
+digest = "sha256:97cbe0b4077bf82bc0a965221e323212f1214cc6ec0f3b1cb067e07ee3a99092"
+
+[[tasks]]
+name = "mindlab/depth2_unique_customer_count_t24"
+digest = "sha256:22fe58b9f8705daa00d30649d2a16aa78e09329af1ce9502e0356d191bf37c80"
+
+[[tasks]]
+name = "mindlab/depth3_net_revenue_usd_t0"
+digest = "sha256:1d5041146f9c28b7d704954be39011986aec4fe14e4a52579acf365cf638a29f"
+
+[[tasks]]
+name = "mindlab/depth3_net_revenue_usd_t1"
+digest = "sha256:3a9b92ac13f45a60e1544cdd68f5d38dac4e4e1b67e6f6b31ddf0ea77b2754fb"
+
+[[tasks]]
+name = "mindlab/depth3_net_revenue_usd_t2"
+digest = "sha256:61e2632d86250531bd917301ffd00a6b1b5dec8caf35aadf71f3584945d6c75d"
+
+[[tasks]]
+name = "mindlab/depth3_net_revenue_usd_t3"
+digest = "sha256:bc9a7a05b5caee5c51adff62a4573b0c400d26121d4aa0ecb5347b800a434537"
+
+[[tasks]]
+name = "mindlab/depth3_net_revenue_usd_t4"
+digest = "sha256:dc0325c89a16e3ae60acddaf1e6b467d8eff9a9fbaa4a34aa320c5b4aa6d6bc5"
+
+[[tasks]]
+name = "mindlab/depth3_net_revenue_usd_t5"
+digest = "sha256:4b44b7f676501b3c9456762ff0deca191f16f15157ddce3750e184a88dd7b2c5"
+
+[[tasks]]
+name = "mindlab/depth3_net_revenue_usd_t6"
+digest = "sha256:42823d7375301f890e2cd4e2edcaa46e191e3a6fd8edaa1cc331924fba0ad4e5"
+
+[[tasks]]
+name = "mindlab/depth3_net_revenue_usd_t7"
+digest = "sha256:45dee74f1ac8b5ef0f812d7e5ed2ac7e2751701c91ac8aa1b466c579d2cbc625"
+
+[[tasks]]
+name = "mindlab/depth3_net_revenue_usd_t8"
+digest = "sha256:bf183c7d51063b808533db6dbfa679a3b52981ab1447fb7a34509f99567f8c28"
+
+[[tasks]]
+name = "mindlab/depth3_net_revenue_usd_t9"
+digest = "sha256:c7ae3707b6c47e11a56d618a6c9a51e5c8ae868c90ae7e2480229542b2ab3263"
+
+[[tasks]]
+name = "mindlab/depth3_net_revenue_usd_t10"
+digest = "sha256:73bedc8aefadf8c174b38fdac8368b76759ed81f5c52d56d72adc09925048907"
+
+[[tasks]]
+name = "mindlab/depth3_net_revenue_usd_t11"
+digest = "sha256:f9a82e2e764617101c3dc5ae4c56e01fd989243bbb674a4374eef9bf544b88ba"
+
+[[tasks]]
+name = "mindlab/depth3_net_revenue_usd_t12"
+digest = "sha256:5233aff24992d29b7682b55134ab05ed7de80e8f661798e2c966cc1a252fbf2d"
+
+[[tasks]]
+name = "mindlab/depth3_net_revenue_usd_t13"
+digest = "sha256:cbc267828f8607f5eb62d3518184472683c3540644d12cb477ab712fbf43d4d0"
+
+[[tasks]]
+name = "mindlab/depth3_net_revenue_usd_t14"
+digest = "sha256:2299e0bb5c1261cf35c555c1d3f5d06925377b814b86f932d118f5e554f7d1f8"
+
+[[tasks]]
+name = "mindlab/depth3_net_revenue_usd_t15"
+digest = "sha256:e6a71f170482634a1a77d5b7463624c3c7c9706e181f41482c342f8622cded56"
+
+[[tasks]]
+name = "mindlab/depth3_net_revenue_usd_t16"
+digest = "sha256:69da110f3f41cbd5d8562dec46a09f18563693d8b45daf2a964a8644e65c3dc9"
+
+[[tasks]]
+name = "mindlab/depth3_net_revenue_usd_t17"
+digest = "sha256:5c73b9c09a2bf13fd26f63714f235cfd7f8ada8b824d4f95f3e5a610e02a779b"
+
+[[tasks]]
+name = "mindlab/depth3_net_revenue_usd_t18"
+digest = "sha256:c6e80408dd454689f04975dde851da3ebe65ccc7754b78aa6f28f012ffae1b9e"
+
+[[tasks]]
+name = "mindlab/depth3_net_revenue_usd_t19"
+digest = "sha256:7c16438700555fa72429ec1cfeddd7e7232a7678d0711cf99f43285e889e0873"
+
+[[tasks]]
+name = "mindlab/depth3_net_revenue_usd_t20"
+digest = "sha256:4b293de336cd5747ab5c15f90885b041b6097e429119005e474dccf36f71614b"
+
+[[tasks]]
+name = "mindlab/depth3_net_revenue_usd_t21"
+digest = "sha256:3c8d24824850b5423d46e5e26bd269968c62209c1872b98743dae126b07e8d89"
+
+[[tasks]]
+name = "mindlab/depth3_net_revenue_usd_t22"
+digest = "sha256:e5fc5c9d92295d76e957a9c9c84da519b861fb8888aa496f2ad2d723449a54bc"
+
+[[tasks]]
+name = "mindlab/depth3_net_revenue_usd_t23"
+digest = "sha256:fff95c9951dea5b82de570cc43d5ead3c9a2f2552ff27fa1adbd45d47ed5fa7e"
+
+[[tasks]]
+name = "mindlab/depth3_net_revenue_usd_t24"
+digest = "sha256:95a4b24c2ff5b6f0b0e563d35d0d5a53791de90efb1848828321a8264250f342"
+
+[[tasks]]
+name = "mindlab/depth3_refund_share_bp_t0"
+digest = "sha256:a9c6be337415989f78dfa4f57841acc2bdeb67fee53a00ef9b3855a06b9a2920"
+
+[[tasks]]
+name = "mindlab/depth3_refund_share_bp_t1"
+digest = "sha256:0f2a77735a4a1ca8c706343ec050bb82de20251e0a3ad12fc2b887ab24bc2615"
+
+[[tasks]]
+name = "mindlab/depth3_refund_share_bp_t2"
+digest = "sha256:685d3343ce46c33f148b97081eff7e65112a37634acc3687404b90657035d405"
+
+[[tasks]]
+name = "mindlab/depth3_refund_share_bp_t3"
+digest = "sha256:054632c0c2db730964f9cfac641dcf983df84e5950da409d0bb8922c9f17fead"
+
+[[tasks]]
+name = "mindlab/depth3_refund_share_bp_t4"
+digest = "sha256:2da23c69b73fe62666cb40fadf1a0f8319eb48eacf407341beb9f32c69e3e32c"
+
+[[tasks]]
+name = "mindlab/depth3_refund_share_bp_t5"
+digest = "sha256:df374bab1d409c47ae66045e663667ea790a74321c11177564bb75b5bc876caf"
+
+[[tasks]]
+name = "mindlab/depth3_refund_share_bp_t6"
+digest = "sha256:6420e32b34b247bb858c766346aa92d2a66c043d18425b6d57e70f35a8051e5f"
+
+[[tasks]]
+name = "mindlab/depth3_refund_share_bp_t7"
+digest = "sha256:3b739da7ac528611a1875d0489f4498f0e57e69a81201e15426688784068db5b"
+
+[[tasks]]
+name = "mindlab/depth3_refund_share_bp_t8"
+digest = "sha256:acacb8a725082ad08654574dc10d77ab76be79ca29fb090c3806d1588410ff6b"
+
+[[tasks]]
+name = "mindlab/depth3_refund_share_bp_t9"
+digest = "sha256:f5bb3bfa60be8be770a343ef0bb2b89f8221dc9cd21dcbc73228461909714c71"
+
+[[tasks]]
+name = "mindlab/depth3_refund_share_bp_t10"
+digest = "sha256:96bb7adf2783f1bf51d93a156fa3b52c18e75867d77cf02c9421a6d651f648f0"
+
+[[tasks]]
+name = "mindlab/depth3_refund_share_bp_t11"
+digest = "sha256:8893a3f0581f925d9bcc0fab1e1d93fa70b2a2ae33470089d6a77de1cc1e027e"
+
+[[tasks]]
+name = "mindlab/depth3_refund_share_bp_t12"
+digest = "sha256:1a8584f95e62f995058d173d82edf96048095fb37092d3d1e3c679558172e69a"
+
+[[tasks]]
+name = "mindlab/depth3_refund_share_bp_t13"
+digest = "sha256:606f429f2590b145c34328a9ceabf9296b5dbc163550ac05e94a1c52c51b6f93"
+
+[[tasks]]
+name = "mindlab/depth3_refund_share_bp_t14"
+digest = "sha256:aad438d77bae341e6d2aeea311e2ee8d7990482530c51366b6775ab676cdc926"
+
+[[tasks]]
+name = "mindlab/depth3_refund_share_bp_t15"
+digest = "sha256:00421e4afcb5a9eeadec79daf92165628c626b8a382188fdadc8fb9b23e06254"
+
+[[tasks]]
+name = "mindlab/depth3_refund_share_bp_t16"
+digest = "sha256:1ab094256989709191a5f277367706fc41da3293234f1b8deb2b769ccc31e3c7"
+
+[[tasks]]
+name = "mindlab/depth3_refund_share_bp_t17"
+digest = "sha256:355380006d87437c0c6a3f7d0de92a5a41951689b6e8a27361889797ae80c424"
+
+[[tasks]]
+name = "mindlab/depth3_refund_share_bp_t18"
+digest = "sha256:01e3d4282a6782b42aa61b3bca1abdc4c608623ed0a8dc97edf0aace98a2043c"
+
+[[tasks]]
+name = "mindlab/depth3_refund_share_bp_t19"
+digest = "sha256:ad479e23e13085fbf2c80ba3a71bd6158a24edfe0eb7a900a6455b84c0fbe88a"
+
+[[tasks]]
+name = "mindlab/depth3_refund_share_bp_t20"
+digest = "sha256:744fdecd3fe2b16fd014d99bea1eeabdc9a66f0e2ed06b222826b3e6bcaf673b"
+
+[[tasks]]
+name = "mindlab/depth3_refund_share_bp_t21"
+digest = "sha256:bf48c77b0a9dec6ebb2ddd36df15a810fb0f8303a66a83a7e5a4441cf402cf86"
+
+[[tasks]]
+name = "mindlab/depth3_refund_share_bp_t22"
+digest = "sha256:07d84a4d143ef49c127a078016d052770bfa0e4f37ec74db7a8ab04b3edd1f67"
+
+[[tasks]]
+name = "mindlab/depth3_refund_share_bp_t23"
+digest = "sha256:7a35b6d1f91abc12d3da74fb8fdd7da4d8acb7dab6ce2fdd6edee2bf04f50f92"
+
+[[tasks]]
+name = "mindlab/depth3_refund_share_bp_t24"
+digest = "sha256:191a3c24e20bbe7266902fdba3e970543208fe513238bf9c26d698a5f58fc64a"
+
+[[tasks]]
+name = "mindlab/depth4_local_net_revenue_t0"
+digest = "sha256:0671c95c91fdb5cd4efa5c1065316e700d9f6dc737a418f1b1372a5aa0e8baab"
+
+[[tasks]]
+name = "mindlab/depth4_local_net_revenue_t1"
+digest = "sha256:ba20444336130a5078d03e59c8f10e4830ad6dba586c0abdac41da4963320bc2"
+
+[[tasks]]
+name = "mindlab/depth4_local_net_revenue_t2"
+digest = "sha256:20222ae967a1f5564efdd15e685b9badde1657549f161d4870ddebcb6b20bedd"
+
+[[tasks]]
+name = "mindlab/depth4_local_net_revenue_t3"
+digest = "sha256:8c3ab4e17e94149de0690424ba4f995c343f81fabe9ae9249d3b818d5ad7252a"
+
+[[tasks]]
+name = "mindlab/depth4_local_net_revenue_t4"
+digest = "sha256:42bf9b373031c3260674708379c1f922e3d37442249472f65b82f1aef20e783a"
+
+[[tasks]]
+name = "mindlab/depth4_local_net_revenue_t5"
+digest = "sha256:d114e789195ee5fbb7a6860ab2ebf88382af6bd9f7d9e19ca52500ade0cda9d7"
+
+[[tasks]]
+name = "mindlab/depth4_local_net_revenue_t6"
+digest = "sha256:b2f9f6eed2bb4c1b8175a33e612e56e745ec1b384fc976e1f51ae95250a82b0e"
+
+[[tasks]]
+name = "mindlab/depth4_local_net_revenue_t7"
+digest = "sha256:62e325e437bf1fdfbbe68a7926cd9af8af6db8f2928d6d2a44570234c33c30c0"
+
+[[tasks]]
+name = "mindlab/depth4_local_net_revenue_t8"
+digest = "sha256:f140cff0fc211e324a831a5ff1766bd0033d27da50722675492df6f00d7bf723"
+
+[[tasks]]
+name = "mindlab/depth4_local_net_revenue_t9"
+digest = "sha256:9918fb070d066f6d9fcd31706772088db81d15b7f7ab0b7b5c373c2a72fae269"
+
+[[tasks]]
+name = "mindlab/depth4_local_net_revenue_t10"
+digest = "sha256:8ca7ae2334422ad8a3d1eb105c38ce153418e23fe9625a5092b18240260f7532"
+
+[[tasks]]
+name = "mindlab/depth4_local_net_revenue_t11"
+digest = "sha256:44f708819c885d2f79afc5c3336c1bf7fd56c74c2ea68d9582f2b4c12e6a6e32"
+
+[[tasks]]
+name = "mindlab/depth4_local_net_revenue_t12"
+digest = "sha256:f4b901e0ecf6de97e5237d5b8d1382c47bd11d3f0bf4096cd4c66f68d2d74429"
+
+[[tasks]]
+name = "mindlab/depth4_local_net_revenue_t13"
+digest = "sha256:64e907d5b685491495a357ebd02964e2f3950617bf3d6d5c4e1d54c8caad24c4"
+
+[[tasks]]
+name = "mindlab/depth4_local_net_revenue_t14"
+digest = "sha256:dc30f577b506b7d525697da67471a42a596cec94658e69404d93327efaddbe6c"
+
+[[tasks]]
+name = "mindlab/depth4_local_net_revenue_t15"
+digest = "sha256:99b041537facf6f773c48f34a0db920395f786d2a03c16fecd2613bc800bb51f"
+
+[[tasks]]
+name = "mindlab/depth4_local_net_revenue_t16"
+digest = "sha256:b9d7abf539581fc73dd242de11e5cec58759456af391673fdbb2aebc7e96a271"
+
+[[tasks]]
+name = "mindlab/depth4_local_net_revenue_t17"
+digest = "sha256:567491a390f263d3d4597394f5363e934fb0f9bb391090385ab3ded496c6a707"
+
+[[tasks]]
+name = "mindlab/depth4_local_net_revenue_t18"
+digest = "sha256:e51b180a20fe4fcbf3371cd81f6d11464b58612b4feb9ac74b2a39688123f855"
+
+[[tasks]]
+name = "mindlab/depth4_local_net_revenue_t19"
+digest = "sha256:b07156dd8227b7112124c82d9ee11e97b355abbdd3bd99a3007a0dc1a7dd27b3"
+
+[[tasks]]
+name = "mindlab/depth4_local_net_revenue_t20"
+digest = "sha256:5cfdab0c27560ff10b9a02de7ac6baab832b7a837fcc49cd99f657a88db018e7"
+
+[[tasks]]
+name = "mindlab/depth4_local_net_revenue_t21"
+digest = "sha256:968a3fa303c8f02e6e294f681a323ae97fd96a876c957e3adb77b7b9de8cd3ea"
+
+[[tasks]]
+name = "mindlab/depth4_local_net_revenue_t22"
+digest = "sha256:03fe709371aa9ec896ade8876596170f91b4e37854ca87432e0e8a18f62c6453"
+
+[[tasks]]
+name = "mindlab/depth4_local_net_revenue_t23"
+digest = "sha256:1adddf6122116611776f303e4681529419111aca9b9991d6d604013c0f921afc"
+
+[[tasks]]
+name = "mindlab/depth4_local_net_revenue_t24"
+digest = "sha256:beb75264cfab2e24a1f5af825022a6e9fd7f79622d48c6ff867e6e2f94cd02a2"
+
+[[tasks]]
+name = "mindlab/depth4_margin_after_refunds_t0"
+digest = "sha256:670e948d20f7bdc098e4ea36ff313b194f4813919b7c1c2532821311517a5ef7"
+
+[[tasks]]
+name = "mindlab/depth4_margin_after_refunds_t1"
+digest = "sha256:9123cf85d565903a5ed55c3806f940e02e3e0ab9c72bcc88b535173e2f0190d7"
+
+[[tasks]]
+name = "mindlab/depth4_margin_after_refunds_t2"
+digest = "sha256:d540ae9200e9db6ddd35c06c802146f5f5bed8f26b7089951934ab942e14a7c9"
+
+[[tasks]]
+name = "mindlab/depth4_margin_after_refunds_t3"
+digest = "sha256:b92502a52362574911b1213392508fe4d55a84a84b2301e79bfcea1458c8f1eb"
+
+[[tasks]]
+name = "mindlab/depth4_margin_after_refunds_t4"
+digest = "sha256:a27554d49328d1f2c3a8c966d412fe8e889dff68463ae078f03775f930e22580"
+
+[[tasks]]
+name = "mindlab/depth4_margin_after_refunds_t5"
+digest = "sha256:1836c57ec51561ce0bd1bced2852f46bba44255c43971c8d8d77fa93416b0c4d"
+
+[[tasks]]
+name = "mindlab/depth4_margin_after_refunds_t6"
+digest = "sha256:e5b2c4131713e839b0083c3b0d8ff1cb7cb6eb1cda6a46f92c030a400b11adc6"
+
+[[tasks]]
+name = "mindlab/depth4_margin_after_refunds_t7"
+digest = "sha256:29d861b6b44b6eaa3d26ce1bfb0523aa40449f1b97bf55b0fe32cfc95c8cbad7"
+
+[[tasks]]
+name = "mindlab/depth4_margin_after_refunds_t8"
+digest = "sha256:a0fba78080e10418e12e2b96ddfdc513bf25b3eaaaca58c3d86bb866b873628f"
+
+[[tasks]]
+name = "mindlab/depth4_margin_after_refunds_t9"
+digest = "sha256:773ebaddff1294bb6e6c0ac87801e4164488a75e978922bf5c4936e14441473b"
+
+[[tasks]]
+name = "mindlab/depth4_margin_after_refunds_t10"
+digest = "sha256:eef972ac2b8993e34dcef431fd30f9169810597b12e21625c1bfc3def61a2709"
+
+[[tasks]]
+name = "mindlab/depth4_margin_after_refunds_t11"
+digest = "sha256:0b151e85c91a9e6e80363f6bc09883ab917c47526684d653642258c282cd5ec9"
+
+[[tasks]]
+name = "mindlab/depth4_margin_after_refunds_t12"
+digest = "sha256:a0d5c5fd0b353b05afc05d827fca547eeb0bb1f461e29294be7f23db779ab962"
+
+[[tasks]]
+name = "mindlab/depth4_margin_after_refunds_t13"
+digest = "sha256:d649f61bf79262597a1a735e9eca2b4a37d08b9801ba8061c42fa725683bd048"
+
+[[tasks]]
+name = "mindlab/depth4_margin_after_refunds_t14"
+digest = "sha256:38c0e468fd0d36bd6697f1090d49a57cf6adc1197bab0ab4e213fa7e754b18e2"
+
+[[tasks]]
+name = "mindlab/depth4_margin_after_refunds_t15"
+digest = "sha256:8f2a67410839f01ec948665006c2d12c8c8c8a30409a435266cd9dcaa081742a"
+
+[[tasks]]
+name = "mindlab/depth4_margin_after_refunds_t16"
+digest = "sha256:3f37e11fb502057d0b59f8dd8c69a68ee5cd30bee996636297f43c899a931a40"
+
+[[tasks]]
+name = "mindlab/depth4_margin_after_refunds_t17"
+digest = "sha256:7bfbd0321a8f6318c007967bdf340981ce4fa735eadd427798346e2a5e30c9fc"
+
+[[tasks]]
+name = "mindlab/depth4_margin_after_refunds_t18"
+digest = "sha256:9bfcb43f2017fcc3f6ff82e3ee3a1d998db16a2c93eeb8e7e49ddaaa059b4b5b"
+
+[[tasks]]
+name = "mindlab/depth4_margin_after_refunds_t19"
+digest = "sha256:4204e4641922eedeefa92027dc7c9264085759363c3bf92464f267da7927f63c"
+
+[[tasks]]
+name = "mindlab/depth4_margin_after_refunds_t20"
+digest = "sha256:9f42c16a67861256d401cd9258e8ca3a63424a62c82a9c5fe8129ebd368bbb35"
+
+[[tasks]]
+name = "mindlab/depth4_margin_after_refunds_t21"
+digest = "sha256:8b8ca4da5c90c0d2a09231f173bc239976d5b20bb027b0b393939fa54461bebf"
+
+[[tasks]]
+name = "mindlab/depth4_margin_after_refunds_t22"
+digest = "sha256:ad8ea0ecccc8c002fd99e9abea758d7ac73ec8398164fa82c6387fb1c6d2bb10"
+
+[[tasks]]
+name = "mindlab/depth4_margin_after_refunds_t23"
+digest = "sha256:df876995addc12f25d43ef167b64b05b7c82d3ece302e6ed2486e7a506abb8f4"
+
+[[tasks]]
+name = "mindlab/depth4_margin_after_refunds_t24"
+digest = "sha256:bf4538db720f81cda241fe18aa743706ddefaad89222c8f0cbe7d657bf43bd06"
+
+[[tasks]]
+name = "mindlab/depth5_reorder_shortfall_t0"
+digest = "sha256:f9ca523779734c5b468109755e849e1a911e98f067dccb99b3aea45c60bc8cbd"
+
+[[tasks]]
+name = "mindlab/depth5_reorder_shortfall_t1"
+digest = "sha256:12ef0a674091e6c016c0bc52f56174431a3323397e00a0cc1207da07d2720d90"
+
+[[tasks]]
+name = "mindlab/depth5_reorder_shortfall_t2"
+digest = "sha256:33207408e6026e4997f6e1a270f6c897f0c703fc627cec50bb3c78dff85fabce"
+
+[[tasks]]
+name = "mindlab/depth5_reorder_shortfall_t3"
+digest = "sha256:548ea9b491df63fbdbdd7d51005241c4cc87e7084cd5f0ee7ad9bb8ace3b5725"
+
+[[tasks]]
+name = "mindlab/depth5_reorder_shortfall_t4"
+digest = "sha256:82ff5f79038753017f21f57983b9071becde63ae585ec5c919892f673f9ae9db"
+
+[[tasks]]
+name = "mindlab/depth5_reorder_shortfall_t5"
+digest = "sha256:944b3ebffc037fdbbf6da1534b7e68a331c72bec1f7cd21da5e2f5266983a095"
+
+[[tasks]]
+name = "mindlab/depth5_reorder_shortfall_t6"
+digest = "sha256:f5a25e9b4d3d921601eca648112af31756720d24fc113b8e86b17ab6bf7654d4"
+
+[[tasks]]
+name = "mindlab/depth5_reorder_shortfall_t7"
+digest = "sha256:94cab311c503481c143cdffd59a6be97a7d76a0d33affc45fc829f4b8d951c3d"
+
+[[tasks]]
+name = "mindlab/depth5_reorder_shortfall_t8"
+digest = "sha256:d77191599c9a48398f2f1bbb09ea1b4048551d95db2eea70b0c68621ba85a592"
+
+[[tasks]]
+name = "mindlab/depth5_reorder_shortfall_t9"
+digest = "sha256:c8114ea713df26178d2e47a158b355c40dd11e65db78853dd1eb42d269c06cf8"
+
+[[tasks]]
+name = "mindlab/depth5_reorder_shortfall_t10"
+digest = "sha256:a34eaebadbe16ad993de56e229eab7b1ed0b0efd99c14c19a2347e05e904f6ff"
+
+[[tasks]]
+name = "mindlab/depth5_reorder_shortfall_t11"
+digest = "sha256:781a3f094394c9519ee3eab77b8b749dce07fb422099c5a7528009e24ae0fe43"
+
+[[tasks]]
+name = "mindlab/depth5_reorder_shortfall_t12"
+digest = "sha256:f9f740705feca57df62dc5ce9338f870ceeb5b1b62d0202ea03f6daaeecb3bab"
+
+[[tasks]]
+name = "mindlab/depth5_reorder_shortfall_t13"
+digest = "sha256:480ad89116547953f5c80be0e16354a5735c555c8a88e4489a53a6180eead374"
+
+[[tasks]]
+name = "mindlab/depth5_reorder_shortfall_t14"
+digest = "sha256:455bbd7beabd5451975043692c8171d76c2d2526f079da3a3e61019d6cc80fc7"
+
+[[tasks]]
+name = "mindlab/depth5_reorder_shortfall_t15"
+digest = "sha256:0c6f9175e8d4f27f1e23d405740ba41e37512d4683bf0f1ddc9727a15caa5cc5"
+
+[[tasks]]
+name = "mindlab/depth5_reorder_shortfall_t16"
+digest = "sha256:cdc0181d147a8937daa8b9c15b37da3320d27ed20705d42f9e306c2f7d524d17"
+
+[[tasks]]
+name = "mindlab/depth5_reorder_shortfall_t17"
+digest = "sha256:7df5d4046febc19cca09921bbb33bb71194c844c9f4187879fb8cd2fabf8eda4"
+
+[[tasks]]
+name = "mindlab/depth5_reorder_shortfall_t18"
+digest = "sha256:c6ca9debbb6c592b090349ef2d2cf2dbc22d29d4d19bbed868b2b46d7599074c"
+
+[[tasks]]
+name = "mindlab/depth5_reorder_shortfall_t19"
+digest = "sha256:842096b51c58c293d39b67889f0629b0f8f0ad77fd921ab53352c605005a884d"
+
+[[tasks]]
+name = "mindlab/depth5_reorder_shortfall_t20"
+digest = "sha256:9e02a2be547c43b295e945da112734c128f87d1a3c0a64b7539a61ad3cc70c2d"
+
+[[tasks]]
+name = "mindlab/depth5_reorder_shortfall_t21"
+digest = "sha256:83beaf402b179d8a25d2976a4e25f8d5a878ca22e1abf5a40960f8c0e2a2d9f1"
+
+[[tasks]]
+name = "mindlab/depth5_reorder_shortfall_t22"
+digest = "sha256:96f05689e0bfb9fe0ad2b576b2ee7be1e2db77b81105123bf0c2409fcdfee354"
+
+[[tasks]]
+name = "mindlab/depth5_reorder_shortfall_t23"
+digest = "sha256:4462195fb8fb3cae40294c8f0bc4a2bb78a7e6ebd2a2bcd37e5f4adf99c50d1a"
+
+[[tasks]]
+name = "mindlab/depth5_reorder_shortfall_t24"
+digest = "sha256:5d94ca3929537126d4c512f4b25d554a64a3e1003a5988427d753470adbe70fb"
+
+[[tasks]]
+name = "mindlab/depth5_delayed_net_revenue_t0"
+digest = "sha256:c58848b4033bac2f030ea3c9f121f6778f4a10c7074c9cdc127a8d74b6a25fd2"
+
+[[tasks]]
+name = "mindlab/depth5_delayed_net_revenue_t1"
+digest = "sha256:2b8a2f076921b37b0cea43a5c5c3fb6bb47ef10cf33b0705da5066283a1db9f1"
+
+[[tasks]]
+name = "mindlab/depth5_delayed_net_revenue_t2"
+digest = "sha256:ca52fa129bb3a642f78f2ffc2d63255f5be62199518624d5ca89ca32b04c1b08"
+
+[[tasks]]
+name = "mindlab/depth5_delayed_net_revenue_t3"
+digest = "sha256:a28ebdcadf09472011c3d76304d72ab1dd6503252d475ee1980fa3983f091199"
+
+[[tasks]]
+name = "mindlab/depth5_delayed_net_revenue_t4"
+digest = "sha256:1dd1fcb78a3dca9e968e4e07b5e9f70961ae13bbdc8f85bd6ca25cb776491f34"
+
+[[tasks]]
+name = "mindlab/depth5_delayed_net_revenue_t5"
+digest = "sha256:c56eb4ee4bfa1571d040be5bf72da92d672f9105a41a1f65d3948cb6ed542837"
+
+[[tasks]]
+name = "mindlab/depth5_delayed_net_revenue_t6"
+digest = "sha256:393760ffe87ca9bdf5baca9d79e2b581f07168cd9469e41c6c944553012196af"
+
+[[tasks]]
+name = "mindlab/depth5_delayed_net_revenue_t7"
+digest = "sha256:9d634c9b8c780602e5128e826519992c3c5a16ea2af85a2611092d499c820843"
+
+[[tasks]]
+name = "mindlab/depth5_delayed_net_revenue_t8"
+digest = "sha256:beda5c77f18d84ffdbef8da14c3529b428b675ffa7b2d7018d30acecd96e89eb"
+
+[[tasks]]
+name = "mindlab/depth5_delayed_net_revenue_t9"
+digest = "sha256:6390a7923877da985516a10bccea7eb7817262c040e46c0e2ff3b06353f87deb"
+
+[[tasks]]
+name = "mindlab/depth5_delayed_net_revenue_t10"
+digest = "sha256:9f0abb4654f63ff3bda20e23911bb3d348562a0de76a4dfbee06b443a8995df2"
+
+[[tasks]]
+name = "mindlab/depth5_delayed_net_revenue_t11"
+digest = "sha256:ecfe2de1c4559619d1b7c04f80afd5fb9015183becb9f374a1c80e9ad1b9aece"
+
+[[tasks]]
+name = "mindlab/depth5_delayed_net_revenue_t12"
+digest = "sha256:0b7d7d01348e3880784d4ed68f2d12b1285f6e5dc7cff5b719f8f30b0607b9b1"
+
+[[tasks]]
+name = "mindlab/depth5_delayed_net_revenue_t13"
+digest = "sha256:20c99d2318f2a0f8696f91bf4e3e635430fe6ea1c312328405152091d6f4849c"
+
+[[tasks]]
+name = "mindlab/depth5_delayed_net_revenue_t14"
+digest = "sha256:be79158867ec4e193d00f90d05e4a63850ae97819d87e6060db35e6ccecf8653"
+
+[[tasks]]
+name = "mindlab/depth5_delayed_net_revenue_t15"
+digest = "sha256:4824e4360049a3da15bab2586222550e67fe7b9d5f9559f1bc48ba47f78bd24f"
+
+[[tasks]]
+name = "mindlab/depth5_delayed_net_revenue_t16"
+digest = "sha256:c819cd037758c1ec1af25d123a08b7bc906df7ed826d445cd0c6d78e7a26247b"
+
+[[tasks]]
+name = "mindlab/depth5_delayed_net_revenue_t17"
+digest = "sha256:f9c1251f37991c0df3a2bec01c4894f53dd7cdf43c6098289781f7cb556157a4"
+
+[[tasks]]
+name = "mindlab/depth5_delayed_net_revenue_t18"
+digest = "sha256:4d189f8cf6c1a33ddbc1e3a84bb005e4efd269bc71f81844b5a5351d7af1700e"
+
+[[tasks]]
+name = "mindlab/depth5_delayed_net_revenue_t19"
+digest = "sha256:0b1cea22b5e4d125fc74084e5cea117d664e517eef99f48b2927aea6ba767fef"
+
+[[tasks]]
+name = "mindlab/depth5_delayed_net_revenue_t20"
+digest = "sha256:c0d5bc318a77d420b36faa935c5697cb4251910154f24ffe58b5d7158e840a49"
+
+[[tasks]]
+name = "mindlab/depth5_delayed_net_revenue_t21"
+digest = "sha256:0a6743ead5e1bb0532d7861eb3d035fe2a1a85f6621ed89f38901f3ffa17fa74"
+
+[[tasks]]
+name = "mindlab/depth5_delayed_net_revenue_t22"
+digest = "sha256:b87e747cfebed0bc975dcff23ca516c545f26339c6d6327dd4503e96207ef493"
+
+[[tasks]]
+name = "mindlab/depth5_delayed_net_revenue_t23"
+digest = "sha256:6b31406fdaa60ef3b6557979f1898533d9a2aa7b009c0feb553db4eb17c03f46"
+
+[[tasks]]
+name = "mindlab/depth5_delayed_net_revenue_t24"
+digest = "sha256:9eabcd759b079f91093628b15a8fb4ff2bf63c3c011dff0c62260f97311a55a3"
+
+[[tasks]]
+name = "mindlab/depth6_delay_sla_burden_t0"
+digest = "sha256:58c5f74389856956ba9708ca5667c41a6dd442b47b34984993950fc4794a6b0a"
+
+[[tasks]]
+name = "mindlab/depth6_delay_sla_burden_t1"
+digest = "sha256:7dca80b66e05eda046a907be611d5e4e15594110d5a5f83d82c3d7a6e68d2d69"
+
+[[tasks]]
+name = "mindlab/depth6_delay_sla_burden_t2"
+digest = "sha256:fc308fa0cad941e3a5830cf342dc8f0aadccb325ac490da4de72586ee2448386"
+
+[[tasks]]
+name = "mindlab/depth6_delay_sla_burden_t3"
+digest = "sha256:8a2bd9ecc82ee2d8a5a7ba77d57e7dc2e0c41999aa5791996a50de5eb610afba"
+
+[[tasks]]
+name = "mindlab/depth6_delay_sla_burden_t4"
+digest = "sha256:974e28fafdcf84d422c918749f13bedd96c3a925f0c708a2380150246f2c540c"
+
+[[tasks]]
+name = "mindlab/depth6_delay_sla_burden_t5"
+digest = "sha256:43d727e1eff84cd096499d27624b44d81c94541839299b878873fc13e4030613"
+
+[[tasks]]
+name = "mindlab/depth6_delay_sla_burden_t6"
+digest = "sha256:a801258b06d3da923ea5b6e8fc4fc183025be406f6a6e40abff42fed0806ae06"
+
+[[tasks]]
+name = "mindlab/depth6_delay_sla_burden_t7"
+digest = "sha256:3867e486a4390b87ace445c33cfb870f97225e2e2c66ac905b3c49a3c9e724f3"
+
+[[tasks]]
+name = "mindlab/depth6_delay_sla_burden_t8"
+digest = "sha256:3cc629d3fe8a568249afdcddaac480f9655e02b6a90e955269fa8603e8665cf2"
+
+[[tasks]]
+name = "mindlab/depth6_delay_sla_burden_t9"
+digest = "sha256:9781234e3a9422d55de73eba3107c37b13f999a1b22877943a0019637e8cd299"
+
+[[tasks]]
+name = "mindlab/depth6_delay_sla_burden_t10"
+digest = "sha256:659f943952864ab82e5a57e7d2ab166c0e6531d4e1c9c0b66ecf1dfbc0114125"
+
+[[tasks]]
+name = "mindlab/depth6_delay_sla_burden_t11"
+digest = "sha256:c7c69192efa911ff7aa6f3c1a3dc401ecccfd26f24418b76384e825255d8cafb"
+
+[[tasks]]
+name = "mindlab/depth6_delay_sla_burden_t12"
+digest = "sha256:4c0a621b46fdffb6170de21458f5919d403dffdc0b196dee09304713a2b4de35"
+
+[[tasks]]
+name = "mindlab/depth6_delay_sla_burden_t13"
+digest = "sha256:94702bdd375dc029b1e51ad4b39252ee22337b8f6dd549caf68a02f8214ddac6"
+
+[[tasks]]
+name = "mindlab/depth6_delay_sla_burden_t14"
+digest = "sha256:a839b944a19c664e54fa0dbd0fe46246ba33720797f0dee3d1b8df9c79fb3b5f"
+
+[[tasks]]
+name = "mindlab/depth6_delay_sla_burden_t15"
+digest = "sha256:eead53bab3481774f2fe5ebee78541214c77e1cf5b7ec71ff0930b194d4b2f0f"
+
+[[tasks]]
+name = "mindlab/depth6_delay_sla_burden_t16"
+digest = "sha256:911a9246f20da9ba28c32052f91a292bc4d979eeb8a222045ebe38748c849a5f"
+
+[[tasks]]
+name = "mindlab/depth6_delay_sla_burden_t17"
+digest = "sha256:72a4b4dd4d2ef5a28a03340ae86b5341f00cfcb82ed5c090a07ce92182d61968"
+
+[[tasks]]
+name = "mindlab/depth6_delay_sla_burden_t18"
+digest = "sha256:da3dd98d5bd020dc4370eb706045b3a08fddc7d6cf21252f997d339d445fdd43"
+
+[[tasks]]
+name = "mindlab/depth6_delay_sla_burden_t19"
+digest = "sha256:3749604bbe8cdf91e64c573697295db9d5e3d889398c9b8c52737664fc7c2daa"
+
+[[tasks]]
+name = "mindlab/depth6_delay_sla_burden_t20"
+digest = "sha256:b0c30a4e0be553cddd56cab0a73d7b2834259b14b66cbabe793cde4c041d2bd7"
+
+[[tasks]]
+name = "mindlab/depth6_delay_sla_burden_t21"
+digest = "sha256:044a35d6334b463b0c9d2d2b7d77b23ff49a9ddd9db65ddd0c0bda97026b587d"
+
+[[tasks]]
+name = "mindlab/depth6_delay_sla_burden_t22"
+digest = "sha256:5403d6a0c653793d9206575c5b76128bda51d64c8c00d1f905599e148f72a21e"
+
+[[tasks]]
+name = "mindlab/depth6_delay_sla_burden_t23"
+digest = "sha256:180184cc9acd61283e8ab3dcdf4c49c200ed279794ca0705e7055e721c63a8b4"
+
+[[tasks]]
+name = "mindlab/depth6_delay_sla_burden_t24"
+digest = "sha256:c678d349b0408c54480c0829aafb6ac3ebc7555837a7a8ec4a7ca664c49c814b"
+
+[[tasks]]
+name = "mindlab/depth6_breached_ticket_revenue_t0"
+digest = "sha256:4a6778099596504f85080c9e403b6a86f437af665212b9976fc940716a1d1d66"
+
+[[tasks]]
+name = "mindlab/depth6_breached_ticket_revenue_t1"
+digest = "sha256:cadb46808dd551e390d120c857f288bb641ebf33e24e708d86b194b0d5f1fea1"
+
+[[tasks]]
+name = "mindlab/depth6_breached_ticket_revenue_t2"
+digest = "sha256:e75255f5739742219691f83bf4357e4f06c35e548b0892834ae02687e6faaf7d"
+
+[[tasks]]
+name = "mindlab/depth6_breached_ticket_revenue_t3"
+digest = "sha256:3b998415749d8ae519f102ee176074eb811ae89783a86a2f969162626d0c1eb8"
+
+[[tasks]]
+name = "mindlab/depth6_breached_ticket_revenue_t4"
+digest = "sha256:2879adc9f59a007540296226d66660f7995ec4412a8cf3ed8644ebd48ad3542c"
+
+[[tasks]]
+name = "mindlab/depth6_breached_ticket_revenue_t5"
+digest = "sha256:3e3972ee53f2f5df632764296646d31e97f5ac54b52ecda5cc1abefd659d55c3"
+
+[[tasks]]
+name = "mindlab/depth6_breached_ticket_revenue_t6"
+digest = "sha256:d1190398e40110757cc9b46b65b7647cc26b28815f06b4a89c4e522e0a6b1bd1"
+
+[[tasks]]
+name = "mindlab/depth6_breached_ticket_revenue_t7"
+digest = "sha256:5d44faa68bdc107a3703773a6cda7dd2878dfd5e7d29c88b79df003b7b2921db"
+
+[[tasks]]
+name = "mindlab/depth6_breached_ticket_revenue_t8"
+digest = "sha256:75a735540d8f335aecc7dc4b1a4d7b7b2fbf04c18c464baad7da8a33c45260b1"
+
+[[tasks]]
+name = "mindlab/depth6_breached_ticket_revenue_t9"
+digest = "sha256:85dd44a0373bf4d6d17bd73e76ff56520a8a0e6e33a342b575ff94322d61a000"
+
+[[tasks]]
+name = "mindlab/depth6_breached_ticket_revenue_t10"
+digest = "sha256:4fd18b719fdc19cb83b16d92154a7505185bfdcae66e6b0514065b98e354e60d"
+
+[[tasks]]
+name = "mindlab/depth6_breached_ticket_revenue_t11"
+digest = "sha256:5a9c1867f37d2e2ef328ac4ce3aa0aec80abc917477cee2d5c4fcd5195bc8332"
+
+[[tasks]]
+name = "mindlab/depth6_breached_ticket_revenue_t12"
+digest = "sha256:cee47641c2c6efa105339199f248fcc09aa70120f11f1114f4ddf1cba5fe0e51"
+
+[[tasks]]
+name = "mindlab/depth6_breached_ticket_revenue_t13"
+digest = "sha256:b81fe50cb511d35b7d7753ec9e0df5bec6228431424030123b20c1d49f7e68ae"
+
+[[tasks]]
+name = "mindlab/depth6_breached_ticket_revenue_t14"
+digest = "sha256:1b840288a5e060aa3da759b90c41152a6c84679cdf0daffe39d54c950112306d"
+
+[[tasks]]
+name = "mindlab/depth6_breached_ticket_revenue_t15"
+digest = "sha256:afdf5a4f7e02fce176f30cb4c4f0bad44589fe0549fea15f47ed865b1857e8b8"
+
+[[tasks]]
+name = "mindlab/depth6_breached_ticket_revenue_t16"
+digest = "sha256:623c4b9525d87345e5d6e9997a3d0c6c148a2c670bbc5b89cdbcc5e3cd8aad23"
+
+[[tasks]]
+name = "mindlab/depth6_breached_ticket_revenue_t17"
+digest = "sha256:158a3533080b68fe3d9868028b000ac152a87ca2d482f3a3a602417f9d383c7f"
+
+[[tasks]]
+name = "mindlab/depth6_breached_ticket_revenue_t18"
+digest = "sha256:06b5beed0c7c49a73473b26dbde5fbc387e7a15788c2809984e0578d83166acd"
+
+[[tasks]]
+name = "mindlab/depth6_breached_ticket_revenue_t19"
+digest = "sha256:d6890b70e11b106689e466aa71b9b7c5ef9fddb717f3381b8db465f9ba1fcd23"
+
+[[tasks]]
+name = "mindlab/depth6_breached_ticket_revenue_t20"
+digest = "sha256:f7818849bdc26d06de86faa43e5ab28dd0e85f9ac9f084ac863a464bc0c12e03"
+
+[[tasks]]
+name = "mindlab/depth6_breached_ticket_revenue_t21"
+digest = "sha256:f9266a52ed8026ea933d111b45dd69971718d234804870e689190619a65caee1"
+
+[[tasks]]
+name = "mindlab/depth6_breached_ticket_revenue_t22"
+digest = "sha256:596f51eb3e1563e749e0853f625f01b15661a23ae178ee5273a40279dc275c96"
+
+[[tasks]]
+name = "mindlab/depth6_breached_ticket_revenue_t23"
+digest = "sha256:1a7eee2746dc4dd0460ee9a598ca622ba47017725ef0ceb1ae4dd6d80f4e062f"
+
+[[tasks]]
+name = "mindlab/depth6_breached_ticket_revenue_t24"
+digest = "sha256:bdb2d1f356d2959ba672bf67dbae2e52152cf14ea28c5d3513653fec722d2c7a"

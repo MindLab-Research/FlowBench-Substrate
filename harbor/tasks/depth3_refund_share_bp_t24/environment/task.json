@@ -1,0 +1,13 @@
+{
+  "task_id": "depth3_refund_share_bp_t24",
+  "depth": 3,
+  "family": "refund_share_bp",
+  "params": {
+    "region": "NA",
+    "category": "D",
+    "month_start": 202601,
+    "month_end": 202603
+  },
+  "question": "For orders in region NA, category D, months 202601-202603: sum gross USD revenue and refund USD amounts, then report the refund share in basis points as floor(refunds * 10000 / gross). Report 0 if gross is zero.",
+  "answer_format": "exact integer"
+}

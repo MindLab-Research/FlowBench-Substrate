@@ -1,0 +1,13 @@
+{
+  "task_id": "depth1_top_product_lookup_t15",
+  "depth": 1,
+  "family": "top_product_lookup",
+  "params": {
+    "region": "LATAM",
+    "category": "D",
+    "month_start": 202601,
+    "month_end": 202605
+  },
+  "question": "For region LATAM, category D, months 202601-202605, identify the product id with the highest units sold. Report only the product id; report -1 if no product has paid/refunded orders.",
+  "answer_format": "exact integer"
+}

@@ -1,0 +1,13 @@
+{
+  "task_id": "depth2_order_count_t14",
+  "depth": 2,
+  "family": "order_count",
+  "params": {
+    "region": "APAC",
+    "category": "C",
+    "month_start": 202602,
+    "month_end": 202606
+  },
+  "question": "How many paid/refunded orders are in region APAC, category C, from month 202602 through 202606? Report the count.",
+  "answer_format": "exact integer"
+}

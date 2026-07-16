@@ -1,0 +1,13 @@
+{
+  "task_id": "depth4_margin_after_refunds_t2",
+  "depth": 4,
+  "family": "margin_after_refunds",
+  "params": {
+    "region": "EU",
+    "category": "C",
+    "month_start": 202601,
+    "month_end": 202604
+  },
+  "question": "For orders in region EU, category C, months 202601-202604: compute each order's gross USD margin, subtract that order's USD refund amount, floor at zero per order, and report the total margin.",
+  "answer_format": "exact integer"
+}

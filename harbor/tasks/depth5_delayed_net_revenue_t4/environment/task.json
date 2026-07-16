@@ -1,0 +1,13 @@
+{
+  "task_id": "depth5_delayed_net_revenue_t4",
+  "depth": 5,
+  "family": "delayed_net_revenue",
+  "params": {
+    "region": "APAC",
+    "category": "A",
+    "month_start": 202602,
+    "month_end": 202605
+  },
+  "question": "For region APAC, category A, months 202602-202605: get the paid/refunded orders, keep only orders whose ship_days exceeded promised_days, compute net USD revenue after loyalty discounts and refunds for those delayed orders, and report the total.",
+  "answer_format": "exact integer"
+}

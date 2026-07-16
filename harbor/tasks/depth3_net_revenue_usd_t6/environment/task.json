@@ -1,0 +1,13 @@
+{
+  "task_id": "depth3_net_revenue_usd_t6",
+  "depth": 3,
+  "family": "net_revenue_usd",
+  "params": {
+    "region": "LATAM",
+    "category": "B",
+    "month_start": 202601,
+    "month_end": 202604
+  },
+  "question": "For orders in region LATAM, category B, months 202601-202604: compute each order's net USD revenue after loyalty discount and refunds, then report the total net revenue in USD.",
+  "answer_format": "exact integer"
+}

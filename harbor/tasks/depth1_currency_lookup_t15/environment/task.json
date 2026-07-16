@@ -1,0 +1,13 @@
+{
+  "task_id": "depth1_currency_lookup_t15",
+  "depth": 1,
+  "family": "currency_lookup",
+  "params": {
+    "region": "LATAM",
+    "category": "D",
+    "month_start": 202601,
+    "month_end": 202605
+  },
+  "question": "What ISO currency code is used for the LATAM region? Report only the code.",
+  "answer_format": "exact code"
+}
